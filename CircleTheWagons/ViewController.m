@@ -7,9 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "DoodleView.h"
+#import "CircleGestureRecognizer.h"
 
 @interface ViewController ()
-
+@property (strong, nonatomic) DoodleView* doodleView;
 @end
 
 @implementation ViewController
@@ -18,6 +20,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+    // Load the doodle view
+    CGRect window = [[UIScreen mainScreen] bounds];
+    self.doodleView = [[DoodleView alloc] initWithFrame:window];
+    
+    CircleGestureRecognizer *recognizer = [[CircleGestureRecognizer alloc] initWithTarget:self action:@selector(handleCircleRecognizer:)];
+	[self.doodleView addGestureRecognizer:recognizer];
+    [self.view addSubview:self.doodleView];
 }
 
 - (void)didReceiveMemoryWarning

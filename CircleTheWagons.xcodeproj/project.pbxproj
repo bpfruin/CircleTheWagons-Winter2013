@@ -18,6 +18,8 @@
 		376A67A516CD826600D799CE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 376A67A416CD826600D799CE /* Default-568h@2x.png */; };
 		376A67A816CD826600D799CE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 376A67A616CD826600D799CE /* MainStoryboard.storyboard */; };
 		376A67AB16CD826600D799CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 376A67AA16CD826600D799CE /* ViewController.m */; };
+		376A67B316CD82A800D799CE /* DoodleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 376A67B216CD82A800D799CE /* DoodleView.m */; };
+		376A67B616CD82CF00D799CE /* CircleGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 376A67B516CD82CF00D799CE /* CircleGestureRecognizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		376A67A716CD826600D799CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		376A67A916CD826600D799CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		376A67AA16CD826600D799CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		376A67B116CD82A800D799CE /* DoodleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoodleView.h; sourceTree = "<group>"; };
+		376A67B216CD82A800D799CE /* DoodleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoodleView.m; sourceTree = "<group>"; };
+		376A67B416CD82CF00D799CE /* CircleGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleGestureRecognizer.h; sourceTree = "<group>"; };
+		376A67B516CD82CF00D799CE /* CircleGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleGestureRecognizer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +91,13 @@
 			children = (
 				376A679D16CD826600D799CE /* AppDelegate.h */,
 				376A679E16CD826600D799CE /* AppDelegate.m */,
-				376A67A616CD826600D799CE /* MainStoryboard.storyboard */,
 				376A67A916CD826600D799CE /* ViewController.h */,
 				376A67AA16CD826600D799CE /* ViewController.m */,
+				376A67B116CD82A800D799CE /* DoodleView.h */,
+				376A67B216CD82A800D799CE /* DoodleView.m */,
+				376A67B416CD82CF00D799CE /* CircleGestureRecognizer.h */,
+				376A67B516CD82CF00D799CE /* CircleGestureRecognizer.m */,
+				376A67A616CD826600D799CE /* MainStoryboard.storyboard */,
 				376A679516CD826600D799CE /* Supporting Files */,
 			);
 			path = CircleTheWagons;
@@ -176,6 +186,8 @@
 				376A679B16CD826600D799CE /* main.m in Sources */,
 				376A679F16CD826600D799CE /* AppDelegate.m in Sources */,
 				376A67AB16CD826600D799CE /* ViewController.m in Sources */,
+				376A67B316CD82A800D799CE /* DoodleView.m in Sources */,
+				376A67B616CD82CF00D799CE /* CircleGestureRecognizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
